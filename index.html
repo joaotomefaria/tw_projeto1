@@ -1,14 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
-    <meta charset="UTF-8">
-    <title>Olá mundo</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CAPSI 2025</title>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
-<h1>Olá mundo</h1>
-<h2>Olá 2</h2>
-<h2>Olá 3</h2>
-<h2>Olá 4</h2>
-
+<body id="top">
+<header class="header-slideshow">
+  <div class="slide-overlay">
+    <h1>CAPSI 2025</h1>
+    <p>Conferência da Associação Portuguesa de Sistemas de Informação</p>
+  </div>
+  <div class="slide" style="background-image: url('images/imagem1.jpg');"></div>
+  <div class="slide" style="background-image: url('images/imagem2.jpg');"></div>
+  <div class="slide" style="background-image: url('images/imagem3.jpg');"></div>
+  <div class="slide" style="background-image: url('images/imagem4.jpg');"></div>
+</header>
+<nav>
+  <input type="checkbox" id="hamburger" class="hamburger">
+  <label for="hamburger" class="hamburger-label">☰</label>
+  <ul class="nav-menu">
+    <li><a href="#home" onclick="document.getElementById('hamburger').checked = false;">Início</a></li>
+    <li><a href="#about" onclick="document.getElementById('hamburger').checked = false;">Sobre</a></li>
+    <li><a href="#program" onclick="document.getElementById('hamburger').checked = false;">Programa</a></li>
+    <li><a href="#speakers" onclick="document.getElementById('hamburger').checked = false;">Oradores</a></li>
+    <li><a href="#contact" onclick="document.getElementById('hamburger').checked = false;">Contacto</a></li>
+  </ul>
+</nav>
+<main class="content-box" tabindex="0">
+  <section id="home">
+    <h2>Bem-vindo à CAPSI 2025</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac eleifend purus. Suspendisse potenti. Integer ac libero at sapien fermentum facilisis. Proin ac lorem vel odio faucibus vestibulum. Duis scelerisque justo at nunc posuere, non pharetra ligula rhoncus. Cras quis tellus ut justo ultrices dapibus. Ut sed turpis sit amet lectus ultricies vulputate non et ligula.</p>
+    <p>Phasellus fringilla nunc ac lorem elementum, ut pharetra velit interdum. Curabitur et metus magna. Vivamus consequat tincidunt lorem, at ultrices massa pulvinar sit amet. Fusce nec quam eu augue vulputate ultrices. Quisque dignissim, metus ut scelerisque suscipit, mi nunc sodales turpis, vel elementum elit neque nec enim. Aenean eget turpis justo. Duis ut risus felis. Suspendisse accumsan luctus sapien, eget sagittis metus dictum et. Curabitur tincidunt justo in orci consequat, et facilisis nulla feugiat.</p>
+  </section>
+  <section id="about">
+    <h2>Sobre a Conferência</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac eleifend purus. Suspendisse potenti. Integer ac libero at sapien fermentum facilisis. Proin ac lorem vel odio faucibus vestibulum. Duis scelerisque justo at nunc posuere, non pharetra ligula rhoncus. Cras quis tellus ut justo ultrices dapibus. Ut sed turpis sit amet lectus ultricies vulputate non et ligula.</p>
+    <p>Phasellus fringilla nunc ac lorem elementum, ut pharetra velit interdum. Curabitur et metus magna. Vivamus consequat tincidunt lorem, at ultrices massa pulvinar sit amet. Fusce nec quam eu augue vulputate ultrices. Quisque dignissim, metus ut scelerisque suscipit, mi nunc sodales turpis, vel elementum elit neque nec enim. Aenean eget turpis justo. Duis ut risus felis. Suspendisse accumsan luctus sapien, eget sagittis metus dictum et. Curabitur tincidunt justo in orci consequat, et facilisis nulla feugiat.</p>
+  </section>
+  <section id="program">
+    <h2>Programa</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac eleifend purus. Suspendisse potenti. Integer ac libero at sapien fermentum facilisis. Proin ac lorem vel odio faucibus vestibulum. Duis scelerisque justo at nunc posuere, non pharetra ligula rhoncus. Cras quis tellus ut justo ultrices dapibus. Ut sed turpis sit amet lectus ultricies vulputate non et ligula.</p>
+    <p>Phasellus fringilla nunc ac lorem elementum, ut pharetra velit interdum. Curabitur et metus magna. Vivamus consequat tincidunt lorem, at ultrices massa pulvinar sit amet. Fusce nec quam eu augue vulputate ultrices. Quisque dignissim, metus ut scelerisque suscipit, mi nunc sodales turpis, vel elementum elit neque nec enim. Aenean eget turpis justo. Duis ut risus felis. Suspendisse accumsan luctus sapien, eget sagittis metus dictum et. Curabitur tincidunt justo in orci consequat, et facilisis nulla feugiat.</p>
+  </section>
+  <section id="speakers">
+    <h2>Oradores</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac eleifend purus. Suspendisse potenti. Integer ac libero at sapien fermentum facilisis. Proin ac lorem vel odio faucibus vestibulum. Duis scelerisque justo at nunc posuere, non pharetra ligula rhoncus. Cras quis tellus ut justo ultrices dapibus. Ut sed turpis sit amet lectus ultricies vulputate non et ligula.</p>
+    <p>Phasellus fringilla nunc ac lorem elementum, ut pharetra velit interdum. Curabitur et metus magna. Vivamus consequat tincidunt lorem, at ultrices massa pulvinar sit amet. Fusce nec quam eu augue vulputate ultrices. Quisque dignissim, metus ut scelerisque suscipit, mi nunc sodales turpis, vel elementum elit neque nec enim. Aenean eget turpis justo. Duis ut risus felis. Suspendisse accumsan luctus sapien, eget sagittis metus dictum et. Curabitur tincidunt justo in orci consequat, et facilisis nulla feugiat.</p>
+  </section>
+  <section id="contact">
+    <h2>Contacto</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac eleifend purus. Suspendisse potenti. Integer ac libero at sapien fermentum facilisis. Proin ac lorem vel odio faucibus vestibulum. Duis scelerisque justo at nunc posuere, non pharetra ligula rhoncus. Cras quis tellus ut justo ultrices dapibus. Ut sed turpis sit amet lectus ultricies vulputate non et ligula.</p>
+    <p>Phasellus fringilla nunc ac lorem elementum, ut pharetra velit interdum. Curabitur et metus magna. Vivamus consequat tincidunt lorem, at ultrices massa pulvinar sit amet. Fusce nec quam eu augue vulputate ultrices. Quisque dignissim, metus ut scelerisque suscipit, mi nunc sodales turpis, vel elementum elit neque nec enim. Aenean eget turpis justo. Duis ut risus felis. Suspendisse accumsan luctus sapien, eget sagittis metus dictum et. Curabitur tincidunt justo in orci consequat, et facilisis nulla feugiat.</p>
+  </section>
+</main>
+<footer>
+  <p>© 2025 CAPSI. Todos os direitos reservados.</p>
+  <a href="#top" class="back-to-top">^</a>
+</footer>
 </body>
 </html>
